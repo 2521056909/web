@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;		
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+a {
+    text-decoration: none;
+    color: #050505;
+    box-sizing: border-box;
+}
+/*导航*/
+a:hover{
+	color: cadetblue;
+}
+a:active{
+	color: yellow;
+}
+input {
+    border: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-color: #f4f5f9;
+}
+header {
+    height: 100px;
+    background-color: #f4f5f9;
+    overflow: hidden; 
+}
+nav {
+    width: 1200px;
+    height: 42px;
+    margin: 30px auto 0px;
+    background-color: #f4f5f9;
+}
+.logo {
+    float: left;
+    margin-right: 50px;
+}
+.navbar {
+    float: left;
+    height: 42px;
+    line-height: 42px;	
+}
+.navbar ul li {
+    float: left;
+    font-size: 20px;
+}
+.navbar ul li a {
+    padding: 0 8px;	
+    display: block; 
+}
+.navbar ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+.search {
+    width: 411px;
+    height: 40px;
+    float: right;
+    border: 1px solid #00a4ff;
+    margin-right: 30px;
+}
+.search input[type=text] {
+    width: 361px;
+    height: 40px;
+    padding-left: 20px;
+    float: left;
+}
+.search input[type=submit] {
+    width: 50px;
+    height: 40px;
+    float: left;
+    background-image: url(images/search_06.png);
+}
+.personal {
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right: 15px;
+}
+.personal a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px -6px 12px;		
+}
+
+.banner {
+    height: 420px;
+    background-image: url(images/banner_03.png);
+}
+.banner-in {
+    height: 420px;
+    background-image: url(images/banner_03.png);
+    position: relative;
+}
+.banner-left {
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+    float: left;
+}
+.banner-left ul li a {
+    display: block;
+    font-size: 14px;
+    color: #ffefd2;
+    padding: 0px 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.banner-left ul li a:hover {
+    color: #00a4ff;
+}
+.banner-left ul li a span {
+    float: right;
+    font-family: arial;
+}
+.banner-right {
+    width: 230px;
+    height: 300px;
+    background-color: #ffffff;
+    float: right;
+    margin-top: 50px;
+}
+.banner-right dl dt {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #9bceeb;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.banner-right dl dd {
+    width: 195px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 12px;
+    box-sizing: border-box;
+}	
+.banner-right dd h4 {
+    color: #4e4e4e;
+    font-size: 14px;
+}
+.banner-right dd p {
+    font-size: 12px;
+    color: #cccccc;
+}
+.banner-right dd:last-child {
+    border-bottom: 0px;
+}
+.banner-right dd a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+}
+.banner-right dd a:hover {
+    background-color: #00a4ff;
+    color: #fff;
+}
+
+.recommend {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 8px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+.recommend a {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 30px;
+    border-right: 1px solid #ccc;
+}
+.recommend a:last-child {
+    border: 0px;
+    float: right;
+    font-size: 14px;
+    color: #00a4ff;			
+}
+.recommend a:first-child,
+.recommend a:hover {
+    color: #00a4ff;
+}
+/*鼠标*/
+span.pointer{
+	cursor: pointer;
+}

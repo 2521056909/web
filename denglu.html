@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<style>
+        a {
+            text-decoration: none;
+        }
+        header{
+            overflow: hidden;
+        }
+        header .one img{
+            width: 145px;
+            height: 55px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        header .two{
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        header p{
+            display: inline-block;
+            margin-right: 40px;
+            color: grey;
+            font-size: 13px;
+            font-weight: lighter;
+        }
+        header a{
+            border: 1px grey solid;
+            padding: 5px;
+            color: dodgerblue;
+        }
+        header p a{
+            border: none;
+        }
+        header p a:hover{
+ 
+            color: orangered;
+        }
+        header .two a:nth-child(2){
+            color: black;
+        }
+        header a span img{
+            position: relative;
+            top: 3px;
+            margin: 0px 3px;
+        }
+        section .one{
+            float: left;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        section .two {
+            float: right;
+            margin-right: 230px;
+            margin-top: 30px;
+ 
+        }
+        section .two p:nth-child(1){
+            font-weight: bolder;
+            font-size: 14px;
+            color: grey;
+        }
+        section .two .num1{
+            font-weight: lighter;
+            font-size: 12px;
+            margin-left: 190px;
+            color: dodgerblue;
+        }
+        section .two ul li{
+            display: inline-block;
+            position: relative;
+            left: -40px;
+            margin-right: 13px;
+        }
+        section .two ul li:nth-child(1){
+            width: 35px;
+            height: 35px;
+            background: url("images/qqf.png") no-repeat;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(1):hover{
+            background: url("images/qqt.png") no-repeat;
+            width: 35px;
+            height: 35px;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(2){
+            width: 35px;
+            height: 35px;
+            background: url("images/wbf.png") no-repeat;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(2):hover{
+            width: 35px;
+            height: 35px;
+            background: url("images/wbt.png") no-repeat;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(3){
+            width: 35px;
+            height: 35px;
+            background: url("images/zhif.png") no-repeat;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(3):hover{
+            width: 35px;
+            height: 35px;
+            background: url("images/zhit.png") no-repeat;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(4){
+            width: 35px;
+            height: 35px;
+            background: url("images/wxf.png") no-repeat ;
+            background-size: 35px;
+        }
+        section .two ul li:nth-child(4):hover{
+            width: 35px;
+            height: 35px;
+            background: url("images/wxt.png") no-repeat ;
+            background-size: 35px;
+        }
+        section .two .num2{
+            border: 1px solid grey;
+            width: 330px;
+            height: 54px;
+            text-indent: 4em;
+            background: url("images/userHead.png")no-repeat 20px 15px;
+        }
+        section .two .num3{
+            border: 1px solid grey;
+            width: 330px;
+            height: 54px;
+            text-indent: 4em;
+            background: url("images/lock.png")no-repeat 20px 12px;
+        }
+        section .two form p:nth-child(3){
+            color: grey;
+            font-weight: lighter;
+            font-size: 12px;
+        }
+        section .two .num4{
+            color: grey;
+            font-weight: lighter;
+            padding-left: 198px;
+        }
+        section .two .num5{
+            font-size: 20px;
+            color: white;
+            background-color:#C65F61;
+            border: none;
+            padding: 14px 148px;
+        }
+        section .two .num6{
+            color: grey;
+            font-size: 12px;
+        }
+        section .two ul li:nth-child(5){
+            padding-right: 30px;
+            color: grey;
+            font-size: 12px;
+            background: url("images/loadMore.png") no-repeat 75px 0px;
+            background-size: 20px;
+            position: relative;
+            left: -2px;
+            top: -15px;
+        }
+        section{
+            overflow: hidden;
+        }
+        footer p{
+            text-align: center;
+            font-size: 15px;
+        }
+        footer p a{
+            color: black;
+        }
+        footer p a:hover{
+            color:#C26768;
+        }
+ 
+</style>
+</head>
+<body>
+<header>
+    <div class="one">
+    <img src="images/loginlogo.jpg">
+    </div>
+    <div class="two">
+    <p>您好，欢迎光临U妆！<a href="#">请登录</a></p>
+    <a href="#"><span><img src="images/runbun.png"></span>帮助中心<span><img src="images/turnb.png"></span></a>
+    </div>
+ 
+</header>
+<hr>
+<section>
+    <div class="one">
+        <img src="images/loadimg.jpg">
+    </div>
+    <div class="two">
+        <p>U妆用户登录<a href= "注册页面.html" class="num1" target="_blank">注册账号</a></p>
+        <form method="get" action="#">
+            <p><input type="text" required="" placeholder="邮箱/手机/用户名" class="num2"></p>
+            <p><input type="password" required="" placeholder="密码" class="num3"></p>
+            <p><input type="checkbox" >   自动登入
+				<a href="#" class="num4">忘记密码？</a></p>
+            <p><input type="submit" value="登入" class="num5"></p>
+        </form>
+        <p class="num6">更多合作网站账号登录</p>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li>更多合作网站<a href="#"></a></li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <p><a href="#">沪ICP备13044278号</a>|  合字B1.B2-20130004  |<a href="#">营业执照</a></p>
+    <p>Copyright © U妆网上超市 2007-2016，All Rights Reserved</p>
+</footer>
+</body>
+</html>

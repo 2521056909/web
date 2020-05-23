@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>注册</title>
+<style>
+        a {
+            text-decoration: none;
+        }
+        header{
+            overflow: hidden;
+        }
+        header .one img{
+            width: 145px;
+            height: 55px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        header .two{
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        header p{
+            display: inline-block;
+            margin-right: 40px;
+            color: grey;
+            font-size: 13px;
+            font-weight: lighter;
+        }
+        header a{
+            border: 1px grey solid;
+            padding: 5px;
+            color: dodgerblue;
+        }
+        header p a{
+            border: none;
+        }
+        header p a:hover{
+ 
+            color: orangered;
+        }
+        header .two a:nth-child(2){
+            color: black;
+        }
+        header a span img{
+            position: relative;
+            top: 3px;
+            margin: 0px 3px;
+        }
+        input{
+            width: 330px;
+            height: 54px;
+            margin: 10px;
+            text-indent: 2em;
+            margin-top: -5px;
+        }
+        .num1{
+            width: 194px;
+        }
+        .num2{
+            width: 126px;
+            height: 56px;
+            margin-left: -5px;
+            text-indent: 0em;
+            background-color: #57565f;
+            border: 1px solid grey;
+            border-radius: 3px;
+        }
+        section p{
+            font-size: 12px;
+            text-indent: 1em;
+            color:#674A4B;
+        }
+        section a{
+            color: dodgerblue;
+        }
+        section .num3{
+            background-color:#B66465;
+            border: 1px solid #B66465;
+            border-radius: 5px;
+            text-indent: 0em;
+            font-size: 17px;
+            color: white;
+        }
+        h1{
+            text-indent: 5em;
+        }
+        section{
+            width: 360px;
+            margin: 0px auto;
+        }
+        footer p{
+            text-align: center;
+            font-size: 15px;
+        }
+        footer p a{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="one">
+        <img src="images/loginlogo.jpg">
+    </div>
+    <div class="two">
+        <p>您好，欢迎光临U妆！<a href="#">请登录</a></p>
+        <a href="#"><span><img src="images/runbun.png"></span>帮助中心<span><img src="images/turnb.png"></span></a>
+    </div>
+ 
+</header>
+<hr>
+<section>
+    <div>
+        <h1>U妆注册</h1>
+        <form method="get" action="#">
+            <input type="text" placeholder="手机号"><br>
+            <input type="text" placeholder="手机号" class="num1">
+            <input type="submit" value="获取验证码" class="num2"><br>
+            <input type="password" placeholder="密码"><br>
+            <input type="password" placeholder="确认密码"><br>
+            <p>点击注册，表示您同意U妆 <a href="#">《服务协议》</a></p>
+            <input type="submit" value="同意协议并注册" class="num3">
+        </form>
+    </div>
+</section>
+<footer>
+    <p><a href="#">沪ICP备13044278号</a>|  合字B1.B2-20130004  |<a href="#">营业执照</a></p>
+    <p>Copyright © U妆网上超市 2007-2016，All Rights Reserved</p>
+</footer>
+</body>
+</html>
